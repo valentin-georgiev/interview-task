@@ -1,0 +1,12 @@
+.person {
+	display: flex;
+	gap: 12px;
+}
+
+.person:first-of-type {
+	margin-top: 32px;
+}
+
+.person + .person {
+	margin-top: 20px;
+}
